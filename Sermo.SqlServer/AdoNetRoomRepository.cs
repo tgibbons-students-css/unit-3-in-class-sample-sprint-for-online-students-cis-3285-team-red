@@ -44,6 +44,8 @@ namespace Sermo.Data.AdoNet
                     command.ExecuteNonQuery();
                 }
             }
+
+            // Changes Sprint 1 --  “I want to create rooms for categorizing conversations.” -- Makar Grytsevych
         }
 
         public IEnumerable<RoomRecord> GetAllRooms()
@@ -72,7 +74,7 @@ namespace Sermo.Data.AdoNet
                     }
                 }
             }
-
+            // Changes Sprint 1 --  “I want to create rooms for categorizing conversations.” -- Makar Grytsevych
             return allRooms;
         }
 

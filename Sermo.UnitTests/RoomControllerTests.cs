@@ -73,6 +73,8 @@ namespace Sermo.UnitTests
             var isValid = Validator.TryValidateObject(viewModel, context, results);
 
             Assert.That(isValid, Is.False);
+
+            // Changes Sprint 2 --  “I want to filter message content so that it is appropriate.” -- Makar Grytsevych
         }
 
         [Test]

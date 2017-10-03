@@ -31,7 +31,7 @@ namespace Sermo.Markdown
             {
                 viewModel.Text = markdown.Transform(viewModel.Text);
             }
-
+            // Changes Sprint 2 --  “I want to send markdown that will be correctly formatted.” -- Makar Grytsevych
             return roomMessages;
         }
 

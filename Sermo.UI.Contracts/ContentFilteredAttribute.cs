@@ -16,6 +16,8 @@ namespace Sermo.UI.Contracts
             "jabberwocky",
             "frabjous",
             "bandersnatch"
+
+            // Changes Sprint 2 --  “I want to filter message content so that it is appropriate.” -- Makar Grytsevych
         };
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
