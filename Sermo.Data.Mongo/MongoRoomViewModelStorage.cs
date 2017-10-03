@@ -51,6 +51,8 @@ namespace Sermo.Data.Mongo
             var database = GetDatabase();
             var messagesCollection = database.GetCollection<MessageViewModel>(MessagesCollection);
             return messagesCollection;
+
+            // Changes Sprint 2 --  “I want to serve hundreds of users concurrently.”  -- Makar Grytsevych
         }
 
         private MongoCollection<RoomViewModel> GetRoomsCollection()
