@@ -36,6 +36,8 @@ namespace Sermo.Data.Mongo
             var messageQuery = Query<MessageViewModel>.EQ(viewModel => viewModel.RoomID, roomID);
             var messagesCollection = GetMessagesCollection();
             return messagesCollection.Find(messageQuery);
+
+            // Changes Sprint 2 --  “I want to serve hundreds of users concurrently.”  -- Makar Grytsevych
         }
 
         public void AddMessage(MessageViewModel messageViewModel)

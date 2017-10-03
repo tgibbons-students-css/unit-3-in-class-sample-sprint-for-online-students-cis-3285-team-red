@@ -81,6 +81,7 @@ namespace Sermo.UI.Controllers
                 result = new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
+            // Changes Sprint 1 --  “I want to send plain text messages to other room members.” -- Makar Grytsevych
             return result;
         }
 
